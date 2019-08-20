@@ -40,6 +40,9 @@ public class App extends javax.swing.JFrame {
 "                              X. 9  `   '  P )X\n" +
 "                              `b  `       '  d'\n" +
 "                               `             '" ); 
+        
+        
+        JOptionPane.showMessageDialog(null, "Autor: Arnold Salazar \n Código fuente en:  https://github.com/rundelhouse/Poo-Ejercicios-nivelacion3.git");
     }  
         
     private void capturarInfo(){
