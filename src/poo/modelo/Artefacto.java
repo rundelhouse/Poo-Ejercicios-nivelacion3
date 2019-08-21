@@ -52,9 +52,11 @@ public class Artefacto {
     public void setContado(boolean contado) {
         this.contado = contado;
     }
+    
+    //Aca empiezo
    
     private void setDescuentoOIncremento(){
-        if(contado == true){
+        if(contado){
             incremento = 0;
             switch(tipo){
                 case "audio":
@@ -98,7 +100,7 @@ public class Artefacto {
     private void setIva(){        
         iva = (costo + descuento + incremento) * 0.18;
     }
-    
+     
     private void calcular(){
         setDescuentoOIncremento();
         setIva();

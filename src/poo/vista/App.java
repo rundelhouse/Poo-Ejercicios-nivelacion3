@@ -89,7 +89,9 @@ public class App extends javax.swing.JFrame {
         lbDescuento.setText("0");
         lbIncremento.setText("0");
         lbIva.setText("0");
-        lbTotal.setText("0");       
+        lbTotal.setText("0");
+        buttonGroup1.clearSelection();
+        chkContado.setSelected(false);
     }
     
     @SuppressWarnings("unchecked")
@@ -133,7 +135,7 @@ public class App extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBackground(new java.awt.Color(105, 100, 100));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Producto:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(233, 229, 221))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Producto:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Lucida Grande", 0, 13), new java.awt.Color(233, 229, 221))); // NOI18N
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setForeground(new java.awt.Color(233, 229, 221));
@@ -235,7 +237,7 @@ public class App extends javax.swing.JFrame {
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 247, 408, 170));
 
         jPanel4.setBackground(new java.awt.Color(105, 100, 100));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Información:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(233, 229, 221))); // NOI18N
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Información:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Lucida Grande", 0, 13), new java.awt.Color(233, 229, 221))); // NOI18N
         jPanel4.setForeground(new java.awt.Color(233, 229, 221));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
